@@ -1,5 +1,8 @@
+Hosting : https://peepermint-git-main-subhajit889.vercel.app/
+
 Introduction
-Peppermint Robotics, a renowned robotics company, aimed to create an engaging and informative careers page for potential job applicants. This case study outlines the design and implementation of the Peppermint Robotics careers page using React components and React Router for seamless navigation.
+Peppermint Robotics, a renowned robotics company, aimed to create an engaging and informative careers page for potential job applicants. 
+
 
 Project Overview
 The Peppermint Robotics careers page was designed to offer essential information about the company, available job openings, and the application process. The key components developed for the page include:
@@ -10,5 +13,14 @@ The Navbar component provides users with easy navigation options and displays li
 Home (Home.jsx)
 The Home component introduces users to Peppermint Robotics and highlights the company's notable achievements and values.
 
-Careers (Carrer.jsx)
-The Careers component showcases the current job openings, complete with brief descriptions and "Apply Now" buttons for each position.
+Careers (Career.jsx)
+The Careers component showcases the current job openings, complete with brief descriptions and "More Details" buttons for each position.
+
+Footer (Footer.jsx)
+The Footer component displays contact information, quick links, and social media icons to enhance user interaction.
+
+Technologies Used
+1. React: A JavaScript library for building dynamic user interfaces.
+2. React Router: A routing library that enables single-page application navigation.
+
+********************Please note that this is a very simplified version of the case study..

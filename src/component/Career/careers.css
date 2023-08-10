@@ -1,0 +1,165 @@
+.career {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hiringBox {
+  margin-top: 2%;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px;
+  padding-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #eceef5;
+  color: #22292F;
+}
+
+.hiringBox h3 {
+  color: #251655;
+  font-family: monospace;
+}
+
+.portal {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2%;
+  width: 50%;
+}
+
+.experience,
+.fresher {
+  flex: 1;
+  padding: 3%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.experiences:hover,
+.freshers:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(9, 235, 224, 0.5);
+}
+
+.lg-img {
+  width: 150px;
+}
+
+.jobBox {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vacancy {
+  width: 300px;
+  height: auto;
+  margin-top: 5%;
+  padding: 3em 3em 4.5em;
+  text-align: center;
+  background-color: #310970;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.hiringBox p a {
+  color: red;
+}
+
+.hiringBox p a:hover {
+  color: darkblue;
+}
+
+.vacancy .jobTitle {
+  font-family: monospace;
+}
+
+.vacancy hr {
+  border: 1px solid lightgray;
+}
+
+.jobRequirement ul {
+  list-style: disc;
+  text-align: left;
+  color: gray;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 0.3rem
+}
+
+.applyButton,
+.detailsButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.applyButton:hover {
+  background-color: #0056b3;
+}
+
+.detailsButton:hover {
+  background-color: cyan;
+}
+
+.excitedText {
+  text-align: center;
+}
+
+.animation {
+  display: inline-block;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  10%,
+  25%,
+  50%,
+  85%,
+  100% {
+    transform: translateY(0);
+  }
+
+  45% {
+    transform: translateY(-10px);
+  }
+
+  65% {
+    transform: translateY(-5px);
+  }
+}
+
+@media only screen and (max-width: 1480px) {
+  .jobBox {
+    justify-content: center;
+  }
+
+  .portal {
+    flex-direction: column;
+  }
+}

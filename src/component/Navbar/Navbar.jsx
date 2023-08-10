@@ -66,8 +66,10 @@ const Navbar = () => {
                     <li><Link to="/">PRODUCTS</Link></li>
                     <li><Link to="/">RESOURCES</Link></li>
                     <li>
-                        <button className="career-btn">CAREERS
-                        </button>
+                        <Link to="/career">
+                            <button className="career-btn">CAREERS
+                            </button>
+                        </Link>
                     </li>
                 </ul>
                 <div className="toggleBtn" onClick={toggleMenu}>
@@ -102,7 +104,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/careers">
+                        <Link to="/career">
                             <b>CAREERS</b>
                         </Link>
                     </li>

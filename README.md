@@ -1,4 +1,3 @@
-Hosting : https://peepermint-git-main-subhajit889.vercel.app/
 
 Introduction
 Peppermint Robotics, a renowned robotics company, aimed to create an engaging and informative careers page for potential job applicants. 
@@ -23,4 +22,4 @@ Technologies Used
 1. React: A JavaScript library for building dynamic user interfaces.
 2. React Router: A routing library that enables single-page application navigation.
 
-********************Please note that this is a very simplified version of the case study..
+********************Please note that this is a very simplified version of the case study*************************

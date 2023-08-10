@@ -9,11 +9,6 @@ import FreshGraduate from "./Freshers/FreshGraduate";
 const Career = () => {
   const [showDialog, setShowDialog] = useState(false);
   const [showJobBox, setShowJobBox] = useState(true);
-  const navigate = useNavigate();
-
-  const hanldleApply = (id) => {
-    navigate(`/form/${id}`);
-  };
 
   const handleFreshGraduateClick = () => {
     setShowDialog(!showDialog);
@@ -29,6 +24,19 @@ const Career = () => {
           </center>
         </header>
         <div className="hiringBox">
+        <div className="whyUsBox">
+          <h1>Why Choose Us?</h1>
+          <p>
+            We are dedicated to fostering innovation, creativity, and growth in a collaborative environment. At our company, you'll have the opportunity to work on exciting projects and make a real impact.
+          </p>
+          <ul className="points">
+            <li>Reputation and Prestige</li>
+            <li>Career Growth Oppurtunities</li>
+            <li>Innovative Environment</li>
+            <li>Learning and Development</li>
+            <li>Great Company Culture</li>
+          </ul>
+        </div>
           <h3 className="excitedText">
             <span className="animation">WE'RE HIRING!</span>
           </h3>

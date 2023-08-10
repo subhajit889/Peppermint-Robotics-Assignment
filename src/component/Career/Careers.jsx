@@ -63,14 +63,8 @@ const Career = () => {
                       ))}
                     </ul>
                     <div className="buttonContainer">
-                      <button
-                        className="applyButton"
-                        onClick={() => hanldleApply(job.id)}
-                      >
-                        Apply Now
-                      </button>
                       <button className="detailsButton">
-                        Details
+                        More Details
                       </button>
                     </div>
                   </div>

@@ -1,0 +1,135 @@
+.footerMain {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  
+  background-color: #22292F;
+  color: white;
+}
+
+.top {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 5%;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.left,
+.middle,
+.right {
+  box-sizing: border-box;
+  width: 350px;
+  height: auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.contactAddress,
+.contactEmail,
+.contactPhone {
+  box-sizing: border-box;
+  color: #ECEEF5;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.contactEmail p a {
+  color: #ECEEF5;
+}
+
+.contactEmail p a:hover {
+  color: cyan;
+}
+
+.left .logo img {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom {
+  width: 100%;
+  height: 50px;
+}
+
+.middle ul {
+  padding: 0;
+}
+
+.middle ul li {
+  display: flex;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.middle ul li:hover {
+  color: #00f0ef;
+}
+
+.middle ul li::before {
+  content: "•";
+  color: #00f0ef;
+  margin-right: 8px;
+}
+
+.right ul li {
+  display: flex;
+  padding-bottom: 20px;
+  cursor: pointer;
+  gap: 0.3rem;
+}
+
+.right ul li:hover {
+  color: #00f0ef;
+}
+
+.right ul li::before {
+  content: ".";
+  color: #00f0ef;
+  margin-right: 8px;
+}
+
+.bottom {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.bottomRight ul {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.bottomRight li {
+  margin-right: 10px;
+}
+
+.bottomRight a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottomRight a:hover {
+  color: cyan;
+}

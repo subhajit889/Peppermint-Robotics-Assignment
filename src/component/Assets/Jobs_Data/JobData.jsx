@@ -19,6 +19,7 @@ export const jobOpenings = [
         "SLAM, OpenCV.",
         "CUDA, Pytorch.",
         "TensorFlow, Navigation",
+        "Exp: 2+Years"
       ],
     },
     {
@@ -45,3 +46,39 @@ export const jobOpenings = [
         ],
       },
   ];
+
+
+
+//   export const jobDetails = [{
+//     id: 1,
+//     title: 'SDE II',
+//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+//     Requirements:[
+//       ""
+//     ]
+//   },
+//   {
+//     id: 2,
+//     title: 'RE - I (PERCEPTION)',
+//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+//     Requirements:[
+//       ""
+//     ]
+//   },
+//   {
+//     id: 3,
+//     title: 'SCE I',
+//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+//     Requirements:[
+//       ""
+//     ]
+//   },
+//   {
+//     id: 4,
+//     title: 'ADA-II',
+//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+//     Requirements:[
+//       ""
+//     ]
+//   }
+// ]

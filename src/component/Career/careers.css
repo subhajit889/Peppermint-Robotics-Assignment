@@ -8,11 +8,10 @@
 }
 
 .hiringBox {
-  margin-top: 2%;
+  margin-top: 3%;
   box-sizing: border-box;
   width: 100%;
   padding: 50px;
-  padding-bottom: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +104,6 @@
   gap: 0.3rem
 }
 
-.applyButton,
 .detailsButton {
   background-color: #007bff;
   color: white;
@@ -117,12 +115,9 @@
   transition: background-color 0.3s ease;
 }
 
-.applyButton:hover {
-  background-color: #0056b3;
-}
-
 .detailsButton:hover {
   background-color: cyan;
+  color: #22292F;
 }
 
 .excitedText {

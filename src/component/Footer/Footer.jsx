@@ -4,7 +4,6 @@ import logo from "../Assets/Peepermint Logo.png";
 import { ImLocation2 } from "react-icons/im";
 import { CgPhone } from "react-icons/cg";
 import { Link } from "react-router-dom";
-import { BsTwitter, BsLinkedin, BsYoutube } from "react-icons/bs";
 import {
   AiFillFacebook,
   AiFillTwitterSquare,

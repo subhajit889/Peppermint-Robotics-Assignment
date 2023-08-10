@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  padding: 0 2 rem;
+  background-color: #1b156d;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #22292F;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  margin-top: 2px;
+  width: 150px;
+}
+
+.social ul {
+  width: 200px;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social ul li a:hover {
+  color: aquamarine;
+}
+
+
+.link {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  align-items: center;
+}
+
+.link li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toggleBtn {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.toggleBtn img {
+  width: 1.5rem;
+}
+
+/* Dropdown Menu */
+.dropDownMenu {
+  position: fixed;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 30;
+}
+
+.dropDownMenu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropDownMenu li a {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  color: black;
+}
+
+.dropDownMenu li a:hover {
+  color: aqua;
+}
+
+.dropDownMenu .actionBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.career-btn {
+  background-color: #00F0EF;
+  color: rgb(3, 3, 3);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.career-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (min-width: 992px) {
+  .dropDownMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .link,
+  .navbar .actionBtn {
+    display: none;
+  }
+
+  .toggleBtn {
+    display: block;
+  }
+
+  .dropDownMenu {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .dropDownMenu {
+    left: 2rem;
+    width: unset;
+  }
+}
